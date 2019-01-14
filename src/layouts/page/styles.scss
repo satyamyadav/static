@@ -1,0 +1,47 @@
+@import '../../sass/variables.scss';
+
+.page-container {
+  position: absolute;
+  background: var(--dark-2);
+  display: block;
+  padding: $nav-width/2 * 1px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-left: $nav-width + $nav-width/2 * 1px;
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  height: 93%;
+  align-items: center;
+  display: flex;
+}
+
+.content-wrapper {
+  display: flex;
+  align-content: center;
+  width: 100%;
+}
+
+.theme-panel {
+  position: fixed;
+  right: $size/2;
+  bottom: $size/2;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+  .theme-pills {
+    display: inline-block;
+    margin-right: $size/4;
+    border: $border-width solid var(--theme-bg);
+    background: var(--theme-color);
+    height: $size;
+    width: $size;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

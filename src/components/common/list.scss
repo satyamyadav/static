@@ -1,0 +1,51 @@
+@import "../../sass/variables.scss";
+
+.list {
+  height: 80%;
+  overflow-y: auto;
+  list-style: none;
+  padding-right: $size;
+  .list-item,
+  .list-link,
+  .list-text,
+  .list-title {
+    margin: 0;
+  }
+  .list-item {
+    .list-link {
+      color: var(--dark-4);
+      text-decoration: none;
+      transition: all ease 0.3s;
+    }
+    &:hover {
+      .list-link {
+        color: var(--text-color);
+      }
+    }
+    position: relative;
+    padding: $padding;
+    margin-bottom: $size/2;
+    &::after {
+      background-color: var(--link-hover);
+      content: "";
+      width: 0;
+      height: $border-width;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-transition: width 0.2s ease;
+      -moz-transition: width 0.2s ease;
+      -o-transition: width 0.2s ease;
+      transition: width 0.2s ease;
+    }
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "data": {
+    "title": "SatyamYadav.info",
+    "themes": [
+      "theme-one",
+      "theme-aqua",
+      "theme-default"
+    ],
+    "social": [
+      {
+        "title": "Github",
+        "url": "https://github.com/satyamyadav",
+        "icon": "github"
+      },
+      {
+        "title": "twitter",
+        "url": "https://twitter.com/Satyam_yadav",
+        "icon": "twitter"
+      },
+      {
+        "title": "facebook",
+        "url": "https://www.facebook.com/satyam.py",
+        "icon": "facebook"
+      },
+      {
+        "title": "mail",
+        "url": "mailto:satyamyadav3@gmail.com",
+        "icon": "mail2"
+      }
+    ],
+    "pages": [
+      {
+        "title": "Home",
+        "url": "/intro",
+        "icon": "home2"
+      },
+      {
+        "title": "About",
+        "url": "/about",
+        "icon": "user1"
+      },
+      {
+        "title": "Writings",
+        "url": "/writings",
+        "icon": "quill"
+      },
+      {
+        "title": "Projects",
+        "url": "/projects",
+        "icon": "eye"
+      }
+    ]
+  }
+}

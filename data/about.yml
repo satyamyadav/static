@@ -1,0 +1,41 @@
+data:
+  title: About me
+  bio: 'I am currently working as Software Developer at Innovaccer Inc. I am an experienced Application Developer with a demonstrated history of working in web and mobile. I build optimized products with amazing user experiences using well-known design patterns and scalable architecture. I also love to build random things in javascript and draw.'
+  
+  timeline:
+    - company: Innovaccer Inc.
+      from: Sep. 2016
+      till: Now
+      role: Software Developer
+      summary: Working as part of the product team developing Datashop a web platform for analystics and usage of Healthcare providing better care to patients of our customers.
+      highlights: Build using AngularJS, Foundation, D3, React-Redux, Node etc.
+    
+    - company: Freelance/part-time
+      from: Feb. 2015
+      till: Aug. 2016
+      role: Web Developer
+      summary: Worked with different startups like frankly.me, musejam, symptum.com, flatabout (now your Quote).
+      highlights: Developed end to end web applications for initial evolution of ideas.
+  
+  skills:
+      - title: Design
+        bottomline: I love to create products with great UI/UX using Foundation, Bootstrap, Materialize etc.
+        devicons:
+          - html5-plain-wordmark
+          - bootstrap-plain-wordmark
+          - sass-original
+          - foundation-plain
+      - title: Code
+        bottomline: Have experience working both at frontend and backend building products wheather it be a desktop, web or mobile application.
+        devicons:
+          - javascript-plain
+          - react-original-wordmark
+          - nodejs-plain-wordmark
+          - laravel-plain
+          - angularjs-plain
+      - title: Tools
+        bottomline: Used tools to deliver flawless user experience and optimized solution.
+        devicons:
+          - git-plain
+          - gulp-plain
+          - atom-original-wordmark
