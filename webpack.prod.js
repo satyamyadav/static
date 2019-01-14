@@ -2,6 +2,7 @@ const merge = require('webpack-merge');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const common = require('./webpack.common.js');
 
@@ -28,6 +29,12 @@ module.exports = merge(common, {
       filename: (getPath) => getPath('css/[name]-[hash].css'),
       allChunks: true,
     }),
+    new CopyWebpackPlugin([
+      {
+        from: './data/*.json',
+        to: './',
+      },
+    ], {context: '../', debug: 'info'}),
   ],
   optimization: {
     minimizer: [
