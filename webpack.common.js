@@ -1,6 +1,7 @@
 const { resolve } = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   context: resolve(__dirname, 'src'),
@@ -43,7 +44,7 @@ module.exports = {
         publicPath: '../data/',
         outputPath: 'data/',
       },
-    },  {
+    }, {
       test: /\.js$/,
       include: resolve(__dirname, 'src/'),
       use: [{
@@ -67,6 +68,14 @@ module.exports = {
       m: 'mithril', //Global access
     }),
     new webpack.optimize.ModuleConcatenationPlugin(),
+    new CopyWebpackPlugin([
+      {
+        from: '../static',
+        to: './',
+      },
+    ],
+    { toType: 'file', debug: 'info', copyUnmodified: true, force: true }
+    ),
   ],
   optimization: {
     runtimeChunk: true,

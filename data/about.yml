@@ -5,21 +5,21 @@ data:
   timeline:
     - company: Innovaccer Inc.
       from: Sep. 2016
-      till: Now
-      role: Software Developer
-      summary: Working as part of the product team developing Datashop a web platform for analystics and usage of Healthcare providing better care to patients of our customers.
-      highlights: Build using AngularJS, Foundation, D3, React-Redux, Node etc.
+      till: Present
+      role: Software Development Engineer II
+      summary: I am working on InConnect with a team strength of ten which include two ui developers and provides omni-channel communication for better engagement of providers with patients through outreach, Two-way secure messaging and telehealth support.
+      highlights: Build using React, Redux, Expressjs, Node etc.
     
     - company: Freelance/part-time
       from: Feb. 2015
       till: Aug. 2016
       role: Web Developer
-      summary: Worked with different startups like frankly.me, musejam, symptum.com, flatabout (now your Quote).
+      summary: Worked on the social video micro blogging platform Franklyme , where I designed and developed embeddable responsive video widgets served over expressjs, dashboard to create, preview and get different widgets to be embedded in any web page by user. Developed end to end web applications for initial evolution of the business idea for young startups like flatabout (now your yourquote.in), symptum.com.
       highlights: Developed end to end web applications for initial evolution of ideas.
   
   skills:
       - title: Design
-        bottomline: I love to create products with great UI/UX using Foundation, Bootstrap, Materialize etc.
+        bottomline: I love to create products with great UI/UX using Bootstrap, SCSS, BEM, styled components, Materialize etc.
         devicons:
           - html5-plain-wordmark
           - bootstrap-plain-wordmark
@@ -31,11 +31,13 @@ data:
           - javascript-plain
           - react-original-wordmark
           - nodejs-plain-wordmark
-          - laravel-plain
+          - express-original-wordmark
           - angularjs-plain
       - title: Tools
         bottomline: Used tools to deliver flawless user experience and optimized solution.
         devicons:
           - git-plain
           - gulp-plain
-          - atom-original-wordmark
+          - atom-original colored
+          - webpack-plain
+          

@@ -5,7 +5,7 @@ export default () => {
   return {
     view(vnode) {
       const intro = vnode.attrs.intro;
-      const { name, title, summary } = intro;
+      const { name, title, summary, resume } = intro;
       return (
         m('div.page-enter', [
           <CreateTag key='lol' text='h1' />,
@@ -17,7 +17,9 @@ export default () => {
             < CreateTag key='lol' text='h1' close />,
           ]),
           m('small', { class: 'text-light' }, summary),
-
+          m('div', {}, [
+            m('a', { href: resume, target: '__blank', class: 'nav-link' }, 'Resume'),
+          ]),
         ])
       );
     },

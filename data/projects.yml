@@ -1,22 +1,18 @@
 
 data:  
+  - title: json-form
+    summary: FORM BUILDING FRAMEWORK WITH JSON CONFIGURATIONS, USING HTML FORMS.
+    url: https://github.com/satyamyadav/json-form
+    
   - title: postgres-express
-    summary: postgres-express
+    summary: A BOILERPLATE USING POSTGRESQL AND EXPRESS WITH TDD;
     url: https://github.com/satyamyadav/postgres-express
-  
+
   - title: PWA Shell
     summary: An elegant app shell for client side progressive apps.
     url: https://satyamyadav.info/pwa-shell/#/board
+    
+  - title: Hexo-theme-stylesimple
+    summary: A CUSTOM HEXO THEME USING CONFIGURABLE BOOTSTRAP BASED CSS LINKS AND PORTFOLIO PAGE.
+    url: http://satyamyadav.github.io/
   
-  - title: stylesimple
-    summary: A simple styles theme builder.
-    url: https://github.com/satyamyadav/stylesimple
-
-  - title: learn together  
-    summary: A idea and project sharing site in nodejs
-    url: http://learn-together.herokuapp.com/
-  
-  - title: Len-Den
-    summary: A better app to learn development than todo list
-    url: http://satyamyadav.info/len-den/
-
